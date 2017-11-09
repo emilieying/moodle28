@@ -12,6 +12,7 @@
 language: php
 
 php:
+    - 7.0
     - 5.6
     # - 5.5
 
@@ -207,3 +208,4 @@ script:
           exit 1 ;
         fi
       fi
+  - bin/atoum --test-all
